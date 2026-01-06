@@ -8,7 +8,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
         [InlineKeyboardButton(
             "فتح التطبيق 🌐",
-            web_app=WebAppInfo(url="https://YOUR-RAILWAY-URL/web")
+            web_app=WebAppInfo(url="https://web-production-006f.up.railway.app/")
         )]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
